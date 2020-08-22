@@ -1,17 +1,23 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import ReactDom from 'react-dom';
+import { BrowserRouter, Route } from 'react-router-dom'
+import Default from './layouts/default'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+import store from './plugins/redux';
+import { Provider } from 'react-redux';
+
+import './assets/js/font'
+import './assets/css/base.css'
+import 'swiper/dist/css/swiper.css';
+import './assets/font/iconfont.css'
+
+ReactDom.render(
+  <Provider store={store}>
+    <BrowserRouter>
+      <Route component={Default} />
+    </BrowserRouter>
+  </Provider>
+
+  ,
   document.getElementById('root')
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();

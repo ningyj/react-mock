@@ -1,0 +1,8 @@
+
+.but{
+  border: 0;
+  text-align: center;
+  user-select: none;
+  outline:none;
+  display: block;
+}

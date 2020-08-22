@@ -1,0 +1,128 @@
+.CinemaCell{
+    padding: 9px;
+}
+.item{
+    font-size: 12px;
+    line-height: 200%;
+    padding: 0 12px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-bottom: 9px;
+}
+.item-container{
+    padding-bottom:15px;
+}
+.item-in{
+    display: block;
+    position: relative;
+    padding-top: 1px;
+    line-height: 200%;
+}
+.item-in h3{
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 2px;
+    font-weight: 500;
+    color: #333;
+}
+.item-addres{
+    position: relative;
+    line-height: 1.5;
+    padding-right: 15px;
+}
+.title-left{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    width: 0;
+}
+.title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    margin-right: 6px;
+    font-size: 16px;
+}
+.price{
+    vertical-align: baseline;
+    color: #ff3d5c;
+    margin-right: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+.distance{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 14px;
+    color: #666;
+}
+.location{
+    width: 290px;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px
+}
+.support{
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.5;
+    margin: 2.5px 0;
+}
+.tags{
+    flex: 1;
+    font-size: 10px
+}
+
+.tags p{
+    margin-right: 5px;
+    font-size: 10px;
+    color: #8896b1;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-style: normal;
+    font-weight: 400;
+    white-space: nowrap;
+    height: 15px;
+    line-height: 15px;
+    padding: 0 3px;
+    border-radius: 2px;
+}
+.tags p:nth-child(1){
+    color: #ff6e00;
+    position: relative;
+}
+
+.tags p::after{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(136,150,177,.4);
+    border-radius: 4px;
+    pointer-events: none;
+    transform-origin: 0 0;
+}
+.tags p:nth-child(1)::after{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(255,110,0,.4);
+    border-radius: 4px;
+    pointer-events: none;
+    transform-origin: 0 0
+}

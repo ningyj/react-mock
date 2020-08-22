@@ -1,0 +1,48 @@
+.lists{
+    padding:15px;
+    height: 125px;
+    /* background-color: red; */
+    display: flex;
+    box-sizing: border-box;
+}
+.lists-left{
+    flex: 0 0 auto;
+    width: 65px;
+    height: 95px;
+    /* background-color: yellow; */
+}
+.lists-center{
+    width: 210px;
+    height: 95px;
+    /* background-color: blue; */
+    padding-left: 10px;
+    padding-right: 10px;
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+.title{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.director,.star{
+    color: #666;
+    font-size: 13px;
+    margin-top: 3px;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1.5;
+}
+.lists-right{
+    width: 50px;
+    height: 95px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: teal; */
+}

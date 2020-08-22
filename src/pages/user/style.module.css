@@ -1,0 +1,116 @@
+.user{
+    padding-bottom: 99px;
+    box-sizing: border-box
+}
+.profile{
+    position: relative;
+}
+.pushwindow{
+    pointer-events: none;
+    display: block;
+    outline: 0;
+}
+.header-wrap{
+    background-color: #ff5456;
+    position: relative;
+    height: 140px;
+    padding: 30px 25px 0;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.header-userinfo{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.header-avatar-warper{
+    position: relative;
+}
+.header-avatar{
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    /* background-image: url(//gw.alicdn.com/i4/O1CN01Xbp2AP1DC1U5D3Gf1_!!0-fleamarket.jpg_.webp); */
+}
+.nickname{
+    line-height: 1.2;
+    font-weight: 500;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.menu-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.menu-grid-wrapper{
+    box-sizing: border-box;
+}
+.group-wrapper{
+    display: flex;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.group-item{
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 47px;
+}
+.group-item i{
+    width: 27px;
+    height: 27px;
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.group-item span{
+    color: #666;
+    margin: 10px 0;
+    font-size: 14px;
+}
+.menu-grid-wrapper{
+    position: relative;
+}
+.menu-grid-wrapper::before{
+    pointer-events: none;
+    position: absolute;
+    content: "";
+    height: 1px;
+    background: hsla(0,0%,51.4%,.3);
+    left: 0;
+    right: 0;
+    top: 0;
+    transform-origin: 0 0;
+}
+.item-wrapper{
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+}
+.tappable{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 29px;
+    padding-left:14px;
+    position: relative;
+    height: 100%;
+    align-items: center;
+}
+.username{
+    flex: 0 0 auto;
+    color: #000;
+    font-size: 16px;
+    margin-right: 10px;
+    line-height: 60px;
+}

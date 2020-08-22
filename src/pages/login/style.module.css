@@ -1,0 +1,45 @@
+.login{
+    padding: 0 20px;
+}
+.login-label-text{
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.content{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 2px;
+}
+.login-blocks{
+    margin: 8px 0;
+    text-align: right;
+    zoom: 1;
+}
+.tb-logo{
+    box-sizing: border-box;
+    background: url(https://gw.alicdn.com/tfs/TB1p.BGQXXXXXbFXFXXXXXXXXXX-160-160.png) no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    margin: 40px auto 0;
+}
+.login-links{
+    margin: 20px 0;
+    margin: 8px 0;
+    text-align: right;
+    zoom: 1;
+    box-sizing: border-box;
+}
+.left{
+    margin-left: 0;
+    float: left;
+    display: inline-block;
+}
+.right{
+    color: #555;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 10px;
+    box-sizing: border-box;
+}

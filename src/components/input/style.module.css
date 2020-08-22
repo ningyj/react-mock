@@ -1,0 +1,16 @@
+.ucInput{
+    border-bottom: 1px solid #ff5000;
+    margin: 40px 0 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.ucInput input{
+    border: 0;
+    padding-left: 5px;
+    font-size: 16px;
+    color: #333;
+    height: 30px;
+    border-radius: 0;
+    width: 100%;
+    outline: none;
+}

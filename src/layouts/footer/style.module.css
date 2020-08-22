@@ -1,0 +1,64 @@
+.Footer{
+    z-index: 999;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff linear-gradient(180deg,#ededed,#ededed 50%,transparent 0,transparent 0) 0 0 repeat-x;
+    background-size: 100% 1px;
+    background-color: hsla(0,0%,100%,.98);
+}
+.tab{
+    display: flex;
+    align-items: stretch;
+    box-sizing: border-box;
+    padding-top: 7px;
+    height: 45px;
+}
+.tab a{
+    /* pointer-events: none;    */
+    flex: 1 1 auto;
+    display: block;
+    position: relative;
+    text-align: center;
+    color: #777;
+    font-size: 10px;
+
+}
+ .link span:nth-child(1) {
+    display: block;
+    margin: 0 auto;
+    height: 22px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.name{
+    text-align: center;
+    color: #777;
+    font-size: 10px;
+    display: block;
+    box-sizing: border-box;
+}
+.re{
+    background-image: url(./img/1.png);
+}
+.active .re{
+    background-image: url(./img/1-1.png);
+}
+.ying{
+    background-image: url(./img/2.png);
+}
+.active .ying{
+    background-image: url(./img/2-2.png);
+}
+.my{
+    background-image: url(./img/3.png);
+}
+.active .my{
+    background-image: url(./img/3-3.png);
+}
+.active span{
+    color:#FE6D80
+}
